@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Adhoc" parallel="tests" thread-count="6">
+<listeners>
+<listener class-name="Protrainingtech.Automation.litners"></listener>
+</listeners>
+<test name="Protrainingtech">
+<parameter name="browser" value="Chrome"></parameter>
+<parameter name="uri" value="https://www.giantfood.com/"></parameter>
+<!--  <groups>
+<run>
+<include name="Positive"></include>
+<include name="Negative"></include>
+<include name="Adoc"></include>
+</run>
+</groups>-->
+<classes>
+<!--  <class name="Protrainingtech.Automation.NewTestFirst"></class>-->
+<!--  <class name="Protrainingtech.Automation.ts"></class>-->
+<!--  <class name="Protrainingtech.Automation.Prmetere"></class>-->
+<class name="Protrainingtech.Automation.Protrainingautomation"></class>
+</classes>
+</test>
+<!--  <test name="Fireoxtestingadhoc">
+<parameter name="browser" value="Firefox"></parameter>
+<parameter name="uri" value="https://www.giantfood.com/"></parameter>
+<classes>
+<class name="Protrainingtech.Automation.NewTestFirst"></class>
+<class name="Protrainingtech.Automation.ts"></class>
+</classes>
+</test>
+<test name="Edge">
+<parameter name="browser" value="Edge"></parameter>
+<parameter name="uri" value="https://www.giantfood.com/"></parameter>
+<classes>
+<class name="Protrainingtech.Automation.NewTestFirst"></class>
+<class name="Protrainingtech.Automation.ts"></class>
+</classes>
+</test>-->
+</suite>
